@@ -7,6 +7,59 @@
 </head>
 <body>
     <h1>Tabela</h1>
+    <tbody>
+        <td-valoresparaalign:(left)(right)(center)(justifi)>
+     <tablewidth="945" border="2px" celispacing="0" cellpadding="0" align="center">
+         <tr>
+             <thwidth="150" align="center" height="25">Tabela</th>
+             <tdcolspan="4" width="820" align="center">Veículo</td>
+         </tr>
+         <tr>
+             <thwidth="150" align="center" height="25">Descrição</th>
+             <tdcolspan="4" width="820" align="center">Armazenará as informações dos veículos</td>
+         </tr>
+         <tr>
+             <thwidth="150" align="center" height="25">Observações</th>
+             <tdcolspan="4" width="820" align="center">Essa tabela possui uma chave estrangeira da tabela Marca</td>
+         </tr>
+         <tr>
+         <thcolspan="5" height="25">Campos</th>
+     </tr>
+     <tr>
+         <thwidth="150" align="center" height="75">Nome</th><thwidth="275" align="center">Descrição</th>
+         <thwidth="150" align="center">Tipo de dados</th><thwidth="120" align="center">Tamanho</th>
+         <thwidth="275">Restrições de dominio (PK,FK,
+             Not Null, Check, Defaut,     
+             identity)
+         </th>
+     </tr>
+     <tr>
+         <thwidth="150" align="center" height="25">Código</th><tdwidth="275" align="center">Código de identificação da tabela</td>
+         <tdwidth="150" align="center">int</td><tdwidth="120" align="center"></td><tdwidth="275" align="center">PK/Identity</td>
+     </tr>
+     <tr>
+         <thwidth="150" align="center" height="25">placa</th><tdwidth="275" align="center">Placa do ónibus</td>
+         <tdwidth="150" align="center">Varchar</td><tdwidth="120" align="center">20</td><tdwidth="275" align="center">Unique / Not Null</td>
+     </tr>
+     <tr>
+         <thwidth="150" align="center" height="25">Anoveiculo</th><tdwidth="275" align="center">Ano de fabricação do ónibus</td>
+         <tdwidth="150" align="center">int</td><tdwidth="120" align="center"></td><tdwidth="275" align="center">Not Null</td>
+     </tr>
+     <tr>
+         <thwidth="150" align="center" height="25">Anocompra</th><tdwidth="275" align="center">Ano de compra do veículo</td>
+         <tdwidth="150" align="center">int</td><tdwidth="120" align="center"></td><tdwidth="275" align="center">Not Null</td>
+     </tr>
+     <tr>
+         <thwidth="150" align="center" height="50">Codmarca</th>
+         <tdwidth="275" align="center">Chave estrangeira referenciando o código da tabela Marca</td>
+         <tdwidth="150" align="center">int</td><tdwidth="120" align="center"></td><tdwidth="275" align="center">FK</td>
+     </tr>
+
+     </table>
+                         
+         
+ 
+</tbody>
     
 </body>
 </html>
