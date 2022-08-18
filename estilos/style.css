@@ -2,8 +2,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16;
     }
-    body {
-        background-color: #d9ffd9;        
+    table {
+        background-color: #f5faf5;        
     }
     main {
         background-color: #ffffff;
@@ -13,5 +13,6 @@
         box-shadow: 3px 3px 5px #000000;
     }
     th{
-        background-color: #0000ff;
+        background-color: #0000a9;
+        color: #ffffff;
     }
