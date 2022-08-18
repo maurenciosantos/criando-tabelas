@@ -3,7 +3,7 @@
     font-size: 16;
     }
     body {
-        background-color: #f0f8ff;        
+        background-color: #d9ffd9;        
     }
     main {
         background-color: #ffffff;
@@ -11,4 +11,7 @@
         margin: auto;
         padding: 10px;
         box-shadow: 3px 3px 5px #000000;
+    }
+    th{
+        background-color: #0000ff;
     }
