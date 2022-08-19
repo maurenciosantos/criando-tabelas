@@ -12,10 +12,10 @@
     }
     #cx1 {
         position: absolute;
-        top: 375px;
-        left: 10px;
+        top: 380px;
+        left: 0px;
         width: 1050px;
-        height: 375px;
-
+        height: 36px;
+        background-color: aquamarine;
         border: solid 2px; 
  }
