@@ -10,4 +10,12 @@
         background-color: #0000a9;
         color: #ffffff;
     }
+    #cx1 {
+        position: absolute;
+        top: auto;
+        left: 0px;
+        width: 1050px;
+        height: 475px;
+        border-color: black solid 2px;
+    }
 
